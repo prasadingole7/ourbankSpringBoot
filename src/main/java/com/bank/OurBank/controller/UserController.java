@@ -29,7 +29,7 @@ import com.bank.OurBank.vo.FdVO;
 import com.bank.OurBank.vo.UserVO;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:54876")
+@CrossOrigin(origins = "*")
 public class UserController  {
 	
 

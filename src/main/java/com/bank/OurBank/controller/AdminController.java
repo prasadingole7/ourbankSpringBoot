@@ -31,7 +31,7 @@ import com.bank.OurBank.vo.AdminVO;
 import com.bank.OurBank.vo.UserVO;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:54876")
+@CrossOrigin(origins = "*")
 public class AdminController {
 	
 	
